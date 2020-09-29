@@ -1,0 +1,81 @@
+.container{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /* position:relative; */
+    background-image: url('../../assets/grocery.jpg');
+    /* opacity: 0.32; */
+    background-size: cover;
+    z-index: 0;
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.left{
+    margin: 0px 70px;
+    height: 70%;
+    width: 80%;
+
+    padding: 5px 0px 0px 15px;
+    background-color: rgba(0, 0, 0, 0.349);
+    font-size: 1.8em;
+    color: rgba(255, 255, 255, 0.842);
+    border-radius: 10px;
+}
+
+.right{
+    margin: 0px 70px;
+    margin-right: 70px;
+    padding: 10px 0px 0px 15px;
+    /* background-color: rgba(0, 0, 0, 0.349); */
+    text-align: center;
+    /* border-radius: 10px; */
+    /* color: white; */
+}
+
+.name{
+    background-color: rgba(255, 255, 255, 0.904);
+    color: rgb(0, 0, 0);
+    font-size: 100px;
+    width: 100%;
+    padding: 20px;
+}
+
+.plain{
+    background-color: none;
+    color: rgb(255, 255, 255);
+}
+
+.start{
+    color: white;
+    text-align: right;
+    padding-right: 200px;
+}
+
+.h1{
+    font-size: 30px;
+    margin: 0px;
+}
+
+.h2{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0px;
+    cursor: pointer;
+    transition: all 0.3s;
+    /* background-color: white; */
+    /* color: black; */
+    /* wi */
+}
+
+.h2:hover{
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 5px;
+    color: black;
+    text-align: left;
+}
