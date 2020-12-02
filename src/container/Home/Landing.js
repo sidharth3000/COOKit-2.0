@@ -18,7 +18,7 @@ class Signin extends Component {
                     <h1><span className={classes.name}>COOKit</span><span className={classes.plain}> .com</span></h1><br/><br/>
                     <div className={classes.start}>
                         <p className={classes.h1}>Let's see what you</p>
-                        <p className={classes.h2}>Have today  &#10095;</p>
+                        <a href="/ing" className={classes.h2} >Have today  &#10095;</a>
                     </div>
                     
                 </div>
